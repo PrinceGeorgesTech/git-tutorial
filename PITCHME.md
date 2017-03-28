@@ -2,12 +2,18 @@
 # Git & Github
 ---
 ## What we are going to learn.
+### Part 1
 - Git
   - What is it and what is it used for?
   - How to install and configure git
   - How to clone a git repository (repo)
   - How to stage and unstage changes
   - How to commit and rollback changes
+  - Branching
+---
+## What we are going to learn.
+### Part 2
+---
 - Github
   - What is it and what is it used for?
   - Create and configure a Github account
@@ -22,8 +28,14 @@ Git was originally invented in 2005 to help software engineers working on the Li
 ---
 ## Installing and configure git
 ### Windows 
+https://desktop.github.com/
 ### MacOS
+https://desktop.github.com/
 ### Linux
+```bash
+sudo apt-get update
+sudo apt-get install git
+```
 ---
 ## How to clone a git repository (repo)
 Cloning a repository (repo) - downloading project code and code history on to your machine
@@ -42,8 +54,8 @@ git show HEAD~2 # 2 versions before, etc.
 ## Saving code - staging and then commiting
 Coding is very precise, so git forces users to be very clear about saving code.
 Git has two steps to save code. 
-- Staging phase - these are changes I am planning on saving
-- Commiting phase - these are changes that I am sure I am saving
+- Staging phase - changes about to be saved
+- Commiting phase - changes are more permanently saved
 ---
 ## Staging
 Please, open a file and make changes to it. 
@@ -60,6 +72,9 @@ git reset HEAD (the name of the file that was changed)
 git checkout (the name of the file that was changed)
 git status # Notice how the changes are gone
 ```
+---
+# Staging and Unstaging 
+Preparing files to be saved permanently 
 ---
 ## Committing
 Please, open a file and make changes to it. 
@@ -79,13 +94,20 @@ git reset HEAD~1 # Notice how your changes are now not commited
 get checkout . # Notice how your files are now back to their original state
 ```
 ---
+# Staging and Unstaging 
+Preparing files to be saved permanently 
+---
 ## Branching 
 Git gives you the ability to keep multiple tracks of work
+---
+## Branching
 ```bash
 git checkout -b your-name
 git checkout master
 git checkout your-name
 ```
+---
+## Github - Part 2
 ---
 ## What is Github?
 Github is a web application that serves as a web repo and UI for git repositories. 
