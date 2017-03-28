@@ -2,23 +2,20 @@
 # Git & Github
 ---
 ## What we are going to learn.
-### Part 1
-- Git
-  - What is it and what is it used for?
-  - How to install and configure git
-  - How to clone a git repository (repo)
-  - How to stage and unstage changes
-  - How to commit and rollback changes
-  - Branching
+### Part 1 - Git
+- What is it and what is it used for?
+- How to install and configure git
+- How to clone a git repository (repo)
+- How to stage and unstage changes
+- How to commit and rollback changes
+- Branching
 ---
 ## What we are going to learn.
-### Part 2
----
-- Github
-  - What is it and what is it used for?
-  - Create and configure a Github account
-  - How to push code to github 
-  - How to create and merge pull requests
+### Part 2 Github
+- What is it and what is it used for?
+- Create and configure a Github account
+- How to push code to github 
+- How to create and merge pull requests
 ---
 ## What is Git?
 Git is tool used to manage changes to digital files. It allows users to track the files changes as well as where the changes came from.
