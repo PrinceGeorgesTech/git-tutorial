@@ -91,9 +91,6 @@ git reset HEAD~1 # Notice how your changes are now not commited
 get checkout . # Notice how your files are now back to their original state
 ```
 ---
-# Staging and Unstaging 
-Preparing files to be saved permanently 
----
 ## Branching 
 Git gives you the ability to keep multiple tracks of work
 ---
