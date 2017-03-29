@@ -7,12 +7,16 @@ def hello():
 
 @app.route("/gabriel")
 def gabriel():
-    return "Hello, ANA!"
+    return "Hello, Mr.Gabriel!"
 
+@app.route("/fareed")
+def fareed():
+    return "Hello, Mr.Gabriel!"
+  
 @app.route("/ANAJAVED")
 def ANAJAVED():
     return "Hello, ANA!"
 
+
 if __name__ == "__main__":
     app.run()
-
