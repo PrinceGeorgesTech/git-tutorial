@@ -7,7 +7,13 @@ def hello():
 
 @app.route("/gabriel")
 def gabriel():
-    return "Hello, Gabriel!"
+    return "Hello, Mr.Gabriel!"
+
+@app.route("/fareed")
+def fareed():
+    return "Hello, Mr.Gabriel!"
 
 if __name__ == "__main__":
     app.run()
+
+
