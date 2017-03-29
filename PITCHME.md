@@ -8,13 +8,14 @@
 - How to clone a git repository (repo)
 - How to stage and unstage changes
 - How to commit and rollback changes
-- Branching
+- How to and when to create branches
 ---
 ## What we are going to learn.
 ### Part 2 Github
 - What is it and what is it used for?
+- How is it different from Git?
 - Create and configure a Github account
-- How to push code to github
+- How to push code to Github
 - How to create and merge pull requests
 ---
 ## What is Git?
@@ -26,7 +27,7 @@ Git was originally invented in 2005 to help software engineers working on the Li
 ## Installing and configure git
 ### Windows
 https://desktop.github.com/
-### MacOS
+### Mac OS
 https://desktop.github.com/
 ### Linux
 ```bash
@@ -37,7 +38,7 @@ sudo apt-get install git
 ## How to clone a git repository (repo)
 Cloning a repository (repo) - downloading project code and code history on to your machine
 ```bash
-git clone https://github.com/...
+git clone https://github.com/PrinceGeorgesTech/git-tutorial.git
 ```
 ---
 ## Inspecting code and code history
