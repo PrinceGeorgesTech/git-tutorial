@@ -1,0 +1,18 @@
+## Customize the test machine
+machine:
+  timezone:
+    America/New_York
+
+  python:
+    version: 3.6
+
+test:
+  override:
+    - py.test
+
+## Customize deployment commands
+deployment:
+  production:
+    branch: master
+    heroku:
+      appname: pg-git-app
