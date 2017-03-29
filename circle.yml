@@ -4,7 +4,7 @@ machine:
     America/New_York
 
   python:
-    version: 3.6
+    version: 3.6.0
 
 test:
   override:
