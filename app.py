@@ -11,12 +11,15 @@ def gabriel():
 
 @app.route("/fareed")
 def fareed():
-    return "Hello, Mr.Gabriel!"
-  
+    return "Hello, Mr.Fareed!"
+
 @app.route("/ANAJAVED")
 def ANAJAVED():
     return "Hello, ANA!"
 
+@app.route("/nick")
+def hello():
+    return "Hello, Mr.Nick!"
 
 if __name__ == "__main__":
     app.run()
