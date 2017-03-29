@@ -9,5 +9,10 @@ def hello():
 def gabriel():
     return "Hello, ANA!"
 
+@app.route("/ANAJAVED")
+def ANAJAVED():
+    return "Hello, ANA!"
+
 if __name__ == "__main__":
     app.run()
+
