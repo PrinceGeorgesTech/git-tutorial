@@ -37,9 +37,8 @@ sudo apt-get install git
 ---
 ## How to clone a git repository (repo)
 Cloning a repository (repo) - downloading project code and code history on to your machine
-```bash
-git clone https://github.com/PrinceGeorgesTech/git-tutorial.git    
-cd git-tutorial
+`git clone https://github.com/PrinceGeorgesTech/git-tutorial.git`  
+`cd git-tutorial`
 ```
 ---
 ## Inspecting code and code history
