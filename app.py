@@ -7,7 +7,7 @@ def hello():
 
 @app.route("/gabriel")
 def gabriel():
-    return "Hello, Mr.Gabriel!"
+    return "Hello, Ms. Wright!"
 
 @app.route("/fareed")
 def fareed():
