@@ -5,6 +5,11 @@ app = Flask(__name__)
 def hello():
     return "Hello, World!"
 
+
+@app.route("/Peg")
+def myname():
+    return "Hello, My Name is Peg!"
+
 @app.route("/Kwame")
 def Qat():
     return "Hello, World KwameB!"
@@ -34,6 +39,7 @@ def Kizzie():
 @app.route("/franklin")
 def franklin():
     return "Hello, Franklin!"
+
 
 
 if __name__ == "__main__":
