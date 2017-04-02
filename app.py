@@ -13,6 +13,13 @@ def Qat():
 def chuck():
     return "Hello, Chuck!"
 
+
+
+@app.route("/leesandra")
+def lee():
+    return "Hello, Lee Sandra!"
+
+
 @app.route("/Kizzie")
 def Kizzie():
 	return "Hello, Kizzie!"
@@ -21,6 +28,8 @@ def Kizzie():
 def franklin():
     return "Hello, Franklin!"
 
+
 if __name__ == "__main__":
+
     app.run()
 
