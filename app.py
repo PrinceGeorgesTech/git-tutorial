@@ -4,6 +4,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return "Hello, World!"
+
 @app.route("/Kwame")
 def Qat():
     return "Hello, World KwameB!"
@@ -16,6 +17,10 @@ def chuck():
 def Kizzie():
 	return "Hello, Kizzie!"
 	
+@app.route("/franklin")
+def franklin():
+    return "Hello, Franklin!"
+
 if __name__ == "__main__":
     app.run()
 
