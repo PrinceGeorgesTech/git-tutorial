@@ -5,9 +5,14 @@ app = Flask(__name__)
 def hello():
     return "Hello, World!"
 
+
 @app.route("/Laura")
 def Laura():
     return "Hello, Laura!"
+
+@app.route("/Peg")
+def myname():
+    return "Hello, My Name is Peg!"
 
 @app.route("/Kwame")
 def Qat():
