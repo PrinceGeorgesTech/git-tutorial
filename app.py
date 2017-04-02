@@ -7,7 +7,7 @@ def hello():
 
 @app.route("/chuck")
 def chuck():
-        return "Hello, Chuck!"
+    return "Hello, Chuck!"
 
 if __name__ == "__main__":
     app.run()
