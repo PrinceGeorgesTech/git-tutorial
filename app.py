@@ -13,6 +13,9 @@ def Qat():
 def chuck():
     return "Hello, Chuck!"
 
+@app.route("/ruby")
+def ruby():
+    return "Hello, RUBY!"
 
 @app.route("/David")
 def David():
