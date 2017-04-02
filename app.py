@@ -5,5 +5,10 @@ app = Flask(__name__)
 def hello():
     return "Hello, World!"
 
+@app.route("/ruby")
+def ruby();
+    return "Hello, RUBY!"
+
+
 if __name__ == "__main__":
     app.run()
