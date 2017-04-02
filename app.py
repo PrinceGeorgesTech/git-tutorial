@@ -14,6 +14,10 @@ def chuck():
     return "Hello, Chuck!"
 
 
+@app.route("/David")
+def David():
+    return "Hello, David!"
+
 
 @app.route("/leesandra")
 def lee():
