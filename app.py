@@ -6,7 +6,7 @@ def hello():
     return "Hello, World!"
 
 @app.route("/ruby")
-def ruby();
+def ruby():
     return "Hello, RUBY!"
 
 
