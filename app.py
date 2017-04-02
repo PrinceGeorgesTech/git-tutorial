@@ -6,6 +6,10 @@ def hello():
     return "Hello, World!"
 
 
+@app.route("/Laura")
+def Laura():
+    return "Hello, Laura!"
+
 @app.route("/Peg")
 def myname():
     return "Hello, My Name is Peg!"
@@ -39,8 +43,6 @@ def Kizzie():
 @app.route("/franklin")
 def franklin():
     return "Hello, Franklin!"
-
-
 
 if __name__ == "__main__":
 
