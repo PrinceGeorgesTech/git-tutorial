@@ -8,5 +8,9 @@ def hello():
 def Qat():
     return "Hello, World KwameB!"
 
+@app.route("/chuck")
+def chuck():
+    return "Hello, Chuck!"
+
 if __name__ == "__main__":
     app.run()
