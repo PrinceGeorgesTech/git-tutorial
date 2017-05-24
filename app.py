@@ -9,5 +9,9 @@ def lucas():
 def amber():
     return "Moon Prism Power!"
 
+@app.route("/Sarwar")
+def Sarwar():
+    return "Hello, Sarwar!"
+
 if __name__ == "__main__":
     app.run()
