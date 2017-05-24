@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask(__name__)
 
 
-    @app.route("/amber")
+@app.route("/amber")
 def amber():
     return "Moon Prism Power!"
 
